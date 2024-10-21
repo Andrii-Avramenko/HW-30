@@ -1,0 +1,29 @@
+.box {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 150px 0;
+}
+.square {
+    width: 100px;
+    height: 100px;
+    animation: around 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes around {
+    0% {
+        background-color: #ff0000;
+    }
+    25% {
+        background-color: #0000ff;
+    }
+    50% {
+        background-color: #00ff00;
+    }
+    75% {
+        background-color: #fff000;
+    }
+    100% {
+        background-color: #ff0000;
+    }
+}
